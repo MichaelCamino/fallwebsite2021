@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="ut-8" />
+    <title>Site Name | Contact</title>
+    <meta name="description" content="This is a Starter HTML, CSS, and JS Boilerplate/Framework." />
+
+    <!-- FOR SMALL SCREENS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FOR IE/EDGE -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- MAIN CSS STYLES -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+<body>
+
+    <header class="site-header toggle-nav">
+        <div class="container">
+            <div class="site-id">
+                <h1><a href="index.html">Site Name</a> / Contact Us</h1>
+            </div>
+            <nav class="site-nav">
+                <div class="menu-button navicon">Menu</div>
+                <ul>
+                    <li class="hideonlarge"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="site-main">
+        <section class="hero">
+            <h2>Contact Us</h2>
+            <p>This is a contact information sub page. It has common contact information on it such as an address, phone
+                number,
+                contact form, and a map. </p>
+            <a href="#contactinfo" class="button">Contact Info</a>
+            <a href="#map" class="button alt">Map</a>
+        </section>
+        <section id="contactinfo">
+            <div class="container">
+                <h3 class="sectionhead">Ways to Get in Touch</h3>
+                <div class="row">
+                    <div class="column one-half">
+                        <address>
+                            4303 Diamond Head Road<br />
+                            Honolulu, HI<br />
+                            96814
+                        </address>
+                        <a href="tel:808-123-4567">(808)123-4567</a>
+
+                    </div>
+                    <div class="column one-half">
+                        <form>
+
+                            <label for="name">Your Name</label>
+                            <input type="text" id="yourname" name="yourname" />
+
+                            <label for="youremail">Your Email</label>
+                            <input type="text" id="youremail" name="youremail" />
+
+                            <label for="yourmessage">Your Message</label>
+                            <input type="text" id="youremail" name="youremail" />
+
+                            <input type="submit" value="Submit" />
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="map">
+            <div class="container">
+                <h3 class="sectionhead">Map</h3>
+                <img src="http://placehold.it/1600x400" alt="Map" />
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <nav class="site-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+
+
+    <!-- MAIN JS FILE -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
