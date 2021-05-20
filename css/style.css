@@ -799,6 +799,8 @@ section {
     color: seashell;
     margin: auto;
     max-width: none;
+    padding-top: .5em;
+    line-height: auto;
 }
 
 .row.portfolio.reverse {
