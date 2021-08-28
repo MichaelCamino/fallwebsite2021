@@ -286,7 +286,7 @@ body {
     color: rgba(0,0,0,.8);
     text-decoration: none;
 }
-.site-header a:hover,
+.site-header r,
 .site-footer a:hover {
     color: rgba(0,0,0,1);
 }
@@ -689,6 +689,14 @@ nav.footer-nav a::after {
 
 .column.one-half a:hover {
     color: rgba(240, 163, 33, 1);
+}
+
+.column.one-half.intern img {
+    transition: 250ms ease;
+}
+
+.column.one-half.intern img:hover {
+    transform: translate(1em);
 }
 
 .column.one-fourth {
