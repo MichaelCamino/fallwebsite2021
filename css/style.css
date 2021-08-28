@@ -157,6 +157,38 @@ img {
     height: auto;
 }
 
+
+
+
+.column.one-third.centered {
+    text-align: center;
+}
+
+.column.column.one-third.centered p.pele {
+    padding-top: .5em;
+    padding-bottom: -.5em;
+    font-family: atocha,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.column.column.one-half p.pele {
+    padding-top: .2em;
+    padding-bottom: .2em;
+    font-family: atocha,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 0;
+}
+
+
+
 /* BUTTONS */
 
 .button {
@@ -164,11 +196,9 @@ img {
     border: 1px solid rgba(255, 255, 255, .8);
     border-radius: .5em;
     padding: 1em 1.5em;
-    font-family: hero-new, sans-serif;
+    font-family: atocha, sans-serif;
     font-weight: 400;
-    font-style: 1em;
-    font-size: 1em;
-    text-transform: uppercase;
+    font-size: 1.7em;
     text-align: center;
     line-height: 1;
     background-color: transparent;
@@ -183,6 +213,7 @@ img {
     color: rgba(97,0,0,1);
     border: 1px solid rgba(240, 163, 33, 1);
     background-position: 0;
+    transform: rotate(10deg);
 }
 
 /* BASE LAYOUT */
@@ -338,6 +369,7 @@ nav.footer-nav a::after {
 .site-footer .container {
        border-top: 1px solid rgba(255, 255, 255, .8);
        max-width: 300px;
+       margin-left: ;
    }
 
    
@@ -811,6 +843,12 @@ section {
     line-height: auto;
 }
 
+
+
+.column.one-half p.portfolio-right.nudge {
+    padding-bottom: 10em;
+}
+
 .row.portfolio.reverse {
     flex-direction: row-reverse;
 }
@@ -819,10 +857,20 @@ section {
     transition: 300ms ease;
 }
 
-.column.one-third.centered img:hover {
-    transform: scale(1.05);
+.column.one-third.centered img.links:hover {
+    transform: translateY(-.5em);
     opacity: .8;
 }
+
+.column.one-half img {
+    transition: 300ms ease;
+}
+
+.column.one-half img.links:hover {
+    transform: translatey(-.5em);
+    opacity: .8;
+}
+
 
 /* TOGGLE-NAV */
 
@@ -980,7 +1028,7 @@ nav{
 
       section {
           padding-bottom: 2em;
-          border: 1px solid red;
+          /* border: 1px solid red; */
       }
 
     div.container.one {
