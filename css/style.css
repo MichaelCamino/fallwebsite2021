@@ -204,7 +204,7 @@ img {
     background-color: transparent;
     color: seashell;
     transition: 300ms ease;
-   
+    margin-top: 5em;
 }
 
 
@@ -822,7 +822,7 @@ section {
 }
 
 .row.logo1 {
-    margin-bottom: 10em;
+    margin-bottom: 3em;
 }
 
 .column.one-half h2.portfolio-right {
@@ -832,6 +832,7 @@ section {
     font-family: hero-new, sans-serif;
     font-weight: 400;
     font-style: normal;
+    line-height: normal;
 }
 
 .column.one-half p.portfolio-right {
