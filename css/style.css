@@ -165,7 +165,7 @@ img {
 }
 
 .column.column.one-third.centered p.pele {
-    padding-top: .5em;
+    padding-top: 2em;
     padding-bottom: -.5em;
     font-family: atocha,sans-serif;
     font-weight: 400;
@@ -177,7 +177,7 @@ img {
 }
 
 .column.column.one-half p.pele {
-    padding-top: .2em;
+    padding-top: 1em;
     padding-bottom: .2em;
     font-family: atocha,sans-serif;
     font-weight: 400;
@@ -198,7 +198,7 @@ img {
     padding: 1em 1.5em;
     font-family: atocha, sans-serif;
     font-weight: 400;
-    font-size: 1.7em;
+    font-size: 1.6em;
     text-align: center;
     line-height: 1;
     background-color: transparent;
@@ -213,7 +213,7 @@ img {
     color: rgba(97,0,0,1);
     border: 1px solid rgba(240, 163, 33, 1);
     background-position: 0;
-    transform: rotate(10deg);
+    transform: rotate(10deg) scale(1.2) ;
 }
 
 /* BASE LAYOUT */
@@ -834,6 +834,17 @@ section {
     line-height: normal;
 }
 
+.column.column.one-third.centered h2.web-dev {
+    text-align: center;
+    color: seashell;
+    font-size: 2em;
+    font-family: hero-new, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+}
+
+
 .column.one-half p.portfolio-right {
     text-align: left;
     color: seashell;
@@ -843,7 +854,27 @@ section {
     line-height: auto;
 }
 
+.column.one-third.centered p.web-dev {
+    text-align: center;
+    color: seashell;
+    margin: auto;
+    max-width: none;
+    padding-top: .5em;
+    line-height: auto;
+    font-family: hero-new, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
 
+.column.one-half h2.design {
+    text-align: center;
+    color: seashell;
+    font-size: 2em;
+    font-family: hero-new, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+}
 
 .column.one-half p.portfolio-right.nudge {
     padding-bottom: 10em;
