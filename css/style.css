@@ -891,7 +891,7 @@ section {
 }
 
 .column.one-third.centered img.links:hover {
-    transform: translateY(-.5em);
+    transform: scale(.98);
     box-shadow: none;
 }
 
@@ -900,7 +900,7 @@ section {
 }
 
 .column.one-half img.links:hover {
-    transform: translatey(-.5em);
+    transform: scale(.98);
 
     box-shadow: none;
 }
