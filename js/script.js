@@ -7,10 +7,25 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     menuToggle.addEventListener("click", () => {
-    nav.classList.toggle("slide");
-  });
+      nav.classList.toggle("slide");
+    });
+
+    const navlinks = document.querySelectorAll("nav a");
+    const checkbox=document.querySelector(".menu-bars input");
+
+    console.log(navlinks);
+    navlinks.forEach(item => {
+      
+      item.addEventListener('click', event => {
+        nav.classList.remove("slide");
+        console.log(checkbox.checked);
+        checkbox.checked = false;
+      })
+    });
 
 });
+
+
 
 // STICKY HEADER
 
