@@ -675,6 +675,19 @@ nav.footer-nav a::after {
 
 /*  COLUMN STYLING */
 
+li.week1 {
+    color: rgb(255, 254, 254);
+    list-style: none;
+    font-size: 1.5em;
+}
+
+a.week1 {
+    color: rgba(240, 163, 33, 1);
+}
+
+li.week1 a.week1:hover {
+    color: rgba(191, 44, 10, 1);
+}
 
 
 .column.one-third.centered h3 {
