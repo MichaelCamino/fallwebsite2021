@@ -918,6 +918,121 @@ section {
     box-shadow: none;
 }
 
+/* SCROLL ANIMATION */
+
+.row-one-h2 {
+    transform: translateY(5em);
+    transition: 1s ease;
+    opacity: 0;
+}
+
+.row-one-p {
+    transform: translateY(5em);
+    transition: 1s ease;
+    opacity: 0;
+}
+
+.video-wrapper {
+    opacity: 0;
+    transition: 1s ease;
+    transform: scale(.8);
+}
+
+.row-two-h2 {
+    transform: translateX(-10em);
+    transition: 1s ease;
+    opacity: 0;
+}
+
+.row-two-p {
+    transform: translateX(-10em);
+    transition: 1s ease;
+    opacity: 0;
+}
+
+.row-three-h2 {
+    transform: translateY(5em);
+    transition: 1s ease;
+    opacity: 0;
+}
+
+.row-three-p {
+    transform: translateY(5em);
+    transition: 1s ease;
+    opacity: 0;
+}
+
+.row-four-a {
+    transform: scale(.8);
+    transition: 1s ease;
+    opacity: 0;
+}
+
+.row-four-h2 {
+    transform: translateY(5em);
+    transition: 1s ease;
+    opacity: 0;
+}
+
+.row-four-p {
+    transform: translateY(5em);
+    transition: 1s ease;
+    opacity: 0;
+}
+
+
+
+section[data-sectionstate="active"] .row-one-h2 {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+section[data-sectionstate="active"] .row-one-p {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+section[data-sectionstate="active"] .video-wrapper {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+section[data-sectionstate="active"] .row-two-h2 {  
+    transform: translateX(0);
+    opacity: 1;
+}
+
+section[data-sectionstate="active"] .row-two-p {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+section[data-sectionstate="active"] .row-three-h2 {
+    transform: translateX(0);
+    opacity: 1;
+}
+        
+section[data-sectionstate="active"] .row-three-p {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+section[data-sectionstate="active"] .row-four-a {
+     transform: scale(1);
+     opacity: 1;
+}
+    
+section[data-sectionstate="active"] .row-four-h2 {
+    transform: translateX(0);
+    opacity: 1;
+}
+            
+ section[data-sectionstate="active"] .row-four-p {
+    transform: translateX(0);
+    opacity: 1;
+}   
+
+
 
 /* TOGGLE-NAV */
 
