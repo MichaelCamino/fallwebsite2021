@@ -723,7 +723,7 @@ li.week1 a.week1:hover {
     font-weight: 400;
     font-style: normal;
     font-size: 6em;
-    line-height: 1vh;
+    line-height: 2vh;
 }
 
 .column.one-half p {
@@ -928,7 +928,7 @@ section {
 
 .row-one-p {
     transform: translateY(5em);
-    transition: 1s ease;
+    transition: 1.2s ease;
     opacity: 0;
 }
 
