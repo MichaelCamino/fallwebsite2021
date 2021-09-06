@@ -968,7 +968,7 @@ section {
 }
 
 .row-four-h2 {
-    transform: translateX(5em);
+    transform: translateX(-5em);
     transition: 1s ease;
     opacity: 0;
 }
@@ -1027,7 +1027,7 @@ section {
 }
 
 .row-six-p-one {
-    transform: translateX(5em);
+    transform: translateX(-5em);
     transition: 1s ease;
     opacity: 0;
 }
