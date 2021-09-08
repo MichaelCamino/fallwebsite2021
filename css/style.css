@@ -918,235 +918,7 @@ section {
     box-shadow: none;
 }
 
-/* SCROLL ANIMATION */
 
-.row-one-h2 {
-    transform: translateY(5em);
-    transition: 1s ease;
-    opacity: 0;
-}
-
-.row-one-p {
-    transform: translateY(5em);
-    transition: 1.2s ease;
-    opacity: 0;
-}
-
-.video-wrapper {
-    opacity: 0;
-    transition: 1s ease;
-    transform: scale(0);
-}
-
-.row-two-h2 {
-    transform: translateY(5em);
-    transition: 1s ease;
-    opacity: 0;
-}
-
-.row-two-p {
-    transform: translateY(5em);
-    transition: 1s ease;
-    opacity: 0;
-}
-
-.row-three-h2 {
-    transform: translateY(5em);
-    transition: 1s ease;
-    opacity: 0;
-}
-
-.row-three-p {
-    transform: translateY(5em);
-    transition: 1s ease;
-    opacity: 0;
-}
-
-.row-four-a {
-    transform: scale(0);
-    opacity: 0;
-}
-
-.row-four-h2 {
-    transform: translateX(-5em);
-    transition: 1s ease;
-    opacity: 0;
-}
-
-.row-four-p {
-    transform: translateX(-5em);
-    transition: 1s ease;
-    opacity: 0;
-}
-
-.row-five-img-one {
-    opacity: 0;
-    transform: scale(0);
-    
-}
-
-.row-five-img-two {
-    opacity: 0;
-    transform: scale(0);
-}
-
-.row-five-h2-one {
-    transform: translateY(-5em);
-    transition: 1s ease;
-    opacity: 0;
-}
-
-.row-five-p-one {
-    transform: translateY(5em);
-    transition: 1s ease;
-    opacity: 0;
-}
-
-.row-five-h2-two {
-    transform: translateY(-5em);
-    transition: 1s ease;
-    opacity: 0;
-}
-
-.row-five-p-two {
-    transform: translateY(5em);
-    transition: 1s ease;
-    opacity: 0;
-}
-
-.row-six-img-one {
-    opacity: 0;
-    transform: scale(0);
-    transition: 2s ease;
-}
-
-.row-six-h2-one {
-    transform: translateX(-5em);
-    transition: 1s ease;
-    opacity: 0;
-}
-
-.row-six-p-one {
-    transform: translateX(-5em);
-    transition: 1s ease;
-    opacity: 0;
-}
-
-.shake {
-    transform: rotate3d(0, 1, 0, 180deg);
-    opacity: 1;
-    transition: 1s ease;
-}
-
-
-
-
-
-section[data-sectionstate="active"] .row-one-h2 {
-    transform: translateY(0);
-    opacity: 1;
-}
-
-section[data-sectionstate="active"] .row-one-p {
-    transform: translateY(0);
-    opacity: 1;
-}
-
-section[data-sectionstate="active"] .video-wrapper {
-    transform: scale(1);
-    opacity: 1;
-}
-
-section[data-sectionstate="active"] .row-two-h2 {  
-    transform: translateX(0);
-    opacity: 1;
-}
-
-section[data-sectionstate="active"] .row-two-p {
-    transform: translateX(0);
-    opacity: 1;
-}
-
-section[data-sectionstate="active"] .row-three-h2 {
-    transform: translateX(0);
-    opacity: 1;
-}
-        
-section[data-sectionstate="active"] .row-three-p {
-    transform: translateX(0);
-    opacity: 1;
-}
-
-section[data-sectionstate="active"] .row-four-a {
-     transform: scale(1);
-     opacity: 1;
-     transition: 1s ease;
-}
-    
-section[data-sectionstate="active"] .row-four-h2 {
-    transform: translateY(0);
-    opacity: 1;
-}
-            
- section[data-sectionstate="active"] .row-four-p {
-    transform: translateY(0);
-    opacity: 1;
-}   
-
-section[data-sectionstate="active"] .row-five-img-one {
-    transform: scale(1);
-    opacity: 1;
-    transition: 1s ease;
-}   
-
-section[data-sectionstate="active"] .row-five-img-two {
-    transform: scale(1);
-    opacity: 1;
-    transition: 1s ease;
-    animation-fill-mode: forwards;
-    animation-delay: .5s;
-}   
-
-section[data-sectionstate="active"] .row-five-h2-one {
-    transform: translateX(0);
-    opacity: 1;
-}
-            
- section[data-sectionstate="active"] .row-five-p-one {
-    transform: translateX(0);
-    opacity: 1;
-}   
-
-section[data-sectionstate="active"] .row-five-h2-two {
-    transform: translateX(0);
-    opacity: 1;
-}
-            
- section[data-sectionstate="active"] .row-five-p-two {
-    transform: translateX(0);
-    opacity: 1;
-}   
-
-section[data-sectionstate="active"] .row-six-img-one {
-    transform: scale(1);
-    opacity: 1;
-    transition: 1s ease;
-}   
-
-section[data-sectionstate="active"] .row-six-h2-one {
-    transform: translateX(0);
-    opacity: 1;
-}
-            
- section[data-sectionstate="active"] .row-six-p-one {
-    transform: translateX(0);
-    opacity: 1;
-}   
-
-section[data-sectionstate="active"] .shake {
-    transform: rotate3d(0, 1, 0, 360deg);
-    opacity: 1;
-}   
 
 
 
@@ -1480,6 +1252,233 @@ body.demo::before {
     width: 100%;
     height: 100%;
   }
+
+
+  /* SCROLL ANIMATION */
+
+.row-one-h2 {
+    transform: translateY(5em);
+    transition: 1s ease;
+    opacity: 0;
+}
+
+.row-one-p {
+    transform: translateY(5em);
+    transition: 1.2s ease;
+    opacity: 0;
+}
+
+.video-wrapper {
+    opacity: 0;
+    transition: 1s ease;
+    transform: scale(.5);
+}
+
+.row-two-h2 {
+    transform: translateY(5em);
+    transition: 1s ease;
+    opacity: 0;
+}
+
+.row-two-p {
+    transform: translateY(5em);
+    transition: 1s ease;
+    opacity: 0;
+}
+
+.row-three-h2 {
+    transform: translateY(5em);
+    transition: 1s ease;
+    opacity: 0;
+}
+
+.row-three-p {
+    transform: translateY(5em);
+    transition: 1s ease;
+    opacity: 0;
+}
+
+.row-four-a {
+    transform: scale(0);
+    opacity: 0;
+}
+
+.row-four-h2 {
+    transform: translateX(-5em);
+    transition: 1s ease;
+    opacity: 0;
+}
+
+.row-four-p {
+    transform: translateX(-5em);
+    transition: 1s ease;
+    opacity: 0;
+}
+
+.row-five-img-one {
+    opacity: 0;
+    transform: scale(0);
+    
+}
+
+.row-five-img-two {
+    opacity: 0;
+    transform: scale(0);
+}
+
+.row-five-h2-one {
+    transform: translateY(-5em);
+    transition: 1s ease;
+    opacity: 0;
+}
+
+.row-five-p-one {
+    transform: translateY(5em);
+    transition: 1s ease;
+    opacity: 0;
+}
+
+.row-five-h2-two {
+    transform: translateY(-5em);
+    transition: 1s ease;
+    opacity: 0;
+}
+
+.row-five-p-two {
+    transform: translateY(5em);
+    transition: 1s ease;
+    opacity: 0;
+}
+
+.row-six-img-one {
+    opacity: 0;
+    transform: scale(0);
+    transition: 2s ease;
+}
+
+.row-six-h2-one {
+    transform: translateX(-5em);
+    transition: 1s ease;
+    opacity: 0;
+}
+
+.row-six-p-one {
+    transform: translateX(-5em);
+    transition: 1s ease;
+    opacity: 0;
+}
+
+.shake {
+    transform: rotate3d(0, 1, 0, 180deg);
+    opacity: 1;
+    transition: 1s ease;
+}
+
+section[data-sectionstate="active"] .row-one-h2 {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+section[data-sectionstate="active"] .row-one-p {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+section[data-sectionstate="active"] .video-wrapper {
+    transform: scale(1);
+    opacity: 1;
+}
+
+section[data-sectionstate="active"] .row-two-h2 {  
+    transform: translateX(0);
+    opacity: 1;
+}
+
+section[data-sectionstate="active"] .row-two-p {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+section[data-sectionstate="active"] .row-three-h2 {
+    transform: translateX(0);
+    opacity: 1;
+}
+        
+section[data-sectionstate="active"] .row-three-p {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+section[data-sectionstate="active"] .row-four-a {
+     transform: scale(1);
+     opacity: 1;
+     transition: 1s ease;
+}
+    
+section[data-sectionstate="active"] .row-four-h2 {
+    transform: translateY(0);
+    opacity: 1;
+}
+            
+ section[data-sectionstate="active"] .row-four-p {
+    transform: translateY(0);
+    opacity: 1;
+}   
+
+section[data-sectionstate="active"] .row-five-img-one {
+    transform: scale(1);
+    opacity: 1;
+    transition: 1s ease;
+}   
+
+section[data-sectionstate="active"] .row-five-img-two {
+    transform: scale(1);
+    opacity: 1;
+    transition: 1s ease;
+    animation-fill-mode: forwards;
+    animation-delay: .5s;
+}   
+
+section[data-sectionstate="active"] .row-five-h2-one {
+    transform: translateX(0);
+    opacity: 1;
+}
+            
+ section[data-sectionstate="active"] .row-five-p-one {
+    transform: translateX(0);
+    opacity: 1;
+}   
+
+section[data-sectionstate="active"] .row-five-h2-two {
+    transform: translateX(0);
+    opacity: 1;
+}
+            
+ section[data-sectionstate="active"] .row-five-p-two {
+    transform: translateX(0);
+    opacity: 1;
+}   
+
+section[data-sectionstate="active"] .row-six-img-one {
+    transform: scale(1);
+    opacity: 1;
+    transition: 1s ease;
+}   
+
+section[data-sectionstate="active"] .row-six-h2-one {
+    transform: translateX(0);
+    opacity: 1;
+}
+            
+ section[data-sectionstate="active"] .row-six-p-one {
+    transform: translateX(0);
+    opacity: 1;
+}   
+
+section[data-sectionstate="active"] .shake {
+    transform: rotate3d(0, 1, 0, 360deg);
+    opacity: 1;
+}   
 
 /* FOR DEV TESTING ONLY */
 
