@@ -679,6 +679,7 @@ li.week1 {
     color: rgb(255, 254, 254);
     list-style: none;
     font-size: 1.5em;
+    text-align: left;
 }
 
 a.week1 {
