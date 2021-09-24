@@ -1300,19 +1300,18 @@ body.demo::before {
 }
 
 .row-four-a {
-    transform: scale(0);
-    opacity: 0;
+    transform: scale(.5);
+    opacity: .5;
 }
 
 .row-four-h2 {
     transform: translateX(-5em);
-    transition: 1s ease;
+    transition: 2s ease;
     opacity: 0;
 }
 
 .row-four-p {
     transform: translateX(-5em);
-    transition: 1s ease;
     opacity: 0;
 }
 
@@ -1413,7 +1412,7 @@ section[data-sectionstate="active"] .row-three-p {
 section[data-sectionstate="active"] .row-four-a {
      transform: scale(1);
      opacity: 1;
-     transition: 1s ease;
+     transition: 250ms ease;
 }
     
 section[data-sectionstate="active"] .row-four-h2 {
@@ -1435,9 +1434,8 @@ section[data-sectionstate="active"] .row-five-img-one {
 section[data-sectionstate="active"] .row-five-img-two {
     transform: scale(1);
     opacity: 1;
-    transition: 1s ease;
-    animation-fill-mode: forwards;
-    animation-delay: .5s;
+    transition: 1s ease ;
+    transition-delay: .3s;
 }   
 
 section[data-sectionstate="active"] .row-five-h2-one {
@@ -1453,27 +1451,37 @@ section[data-sectionstate="active"] .row-five-h2-one {
 section[data-sectionstate="active"] .row-five-h2-two {
     transform: translateX(0);
     opacity: 1;
+    transition: 1s ease;
+    transition-delay: .3s;
 }
             
  section[data-sectionstate="active"] .row-five-p-two {
     transform: translateX(0);
     opacity: 1;
+    transition: 1s ease;
+    transition-delay: .3s;
 }   
 
 section[data-sectionstate="active"] .row-six-img-one {
     transform: scale(1);
     opacity: 1;
     transition: 1s ease;
+    transition: 1s ease;
+    transition-delay: .1s;
 }   
 
 section[data-sectionstate="active"] .row-six-h2-one {
     transform: translateX(0);
     opacity: 1;
+    transition: 1s ease;
+    transition-delay: .1s;
 }
             
  section[data-sectionstate="active"] .row-six-p-one {
     transform: translateX(0);
     opacity: 1;
+    transition: 1s ease;
+    transition-delay: .1s;
 }   
 
 section[data-sectionstate="active"] .shake {
