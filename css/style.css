@@ -678,8 +678,9 @@ nav.footer-nav a::after {
 li.week1 {
     color: rgb(255, 254, 254);
     list-style: none;
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: left;
+
 }
 
 a.week1 {
@@ -688,6 +689,20 @@ a.week1 {
 
 li.week1 a.week1:hover {
     color: rgba(191, 44, 10, 1);
+}
+
+.week1 {
+    color: rgba(255, 255, 255, .8);
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.column.one-half.left {
+    margin: auto;
+}
+
+.column.one-half.right {
+    margin-top: 0;
 }
 
 

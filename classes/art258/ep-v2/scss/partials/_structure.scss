@@ -1,0 +1,433 @@
+/* SITE STRUCTURE */
+
+body{
+    background-color: $color-text-body;
+}
+.site-header {
+    // background: $color-accent-dark;
+    position: absolute;
+    padding: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        h1 {
+            font-size: 1.5em;
+            margin: 0;
+        }
+
+        .site-id {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            max-width: 50px;
+        }
+}
+
+/* SITE-FOOTER */
+
+.site-footer {
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+        a {
+            text-decoration: none;
+            padding: 1em;
+        }
+
+        ul {
+            margin: 0;
+            list-style: none;
+            display: flex;
+            padding: 0;
+        }    
+}
+
+// MAIN SECTION STYLING
+
+.site-main {
+    overflow-x: hidden;
+}
+
+// SECTION STYLIING
+
+section {
+    padding: 1em 0;
+    display: grid;
+    align-items: center;
+
+    @media (min-width: $breakpoint-small) {
+        min-height: 100vh;
+    }
+
+}
+
+#section-1 {
+    @media (min-width: $breakpoint-small) {
+        margin: 2em 2em 0 2em;
+    }
+    background-color: $color-background-light;
+    margin: 1em 1em 0 1em;
+    border-radius: 20px;
+    z-index: 2;
+
+    .row {
+        margin: 0;
+    }
+
+    h2 {
+        @media (min-width: $breakpoint-small) {
+            font-size: 2.6em;
+        }
+        color: $color-accent-light;
+        font-size: 2.2em;
+        margin: auto;
+    }
+    h3 {
+        @media (min-width: $breakpoint-small) {
+            font-size: 2;
+        }
+        color: $color-accent-dark;
+        font-size: 1.8em;
+        font-weight: 400;
+        font-style: italic;
+        margin: auto;
+    }
+    p {
+        font-family: $font-family-sans;
+        line-height: 1.3;
+        margin-top: 10px;
+        max-width: 90%;
+    }
+
+    img {
+        box-shadow: 5px 5px 15px rgba(0,0,0,.6);
+    }
+}
+
+#section-2 {
+    position: relative;
+
+    .menu {
+    text-align: center;
+    width: auto;
+    margin-top: 2em;
+    }
+    .button {
+        transition: 250ms ease;
+    }
+    img.shaker {
+        @media (min-width: $breakpoint-small) {
+            opacity: 1;
+            top: -20%;
+        }
+        position: absolute;
+        top: -10%;
+        left: -20%;
+        width: 50%;
+        z-index: 2;
+        opacity: .3;
+        }
+
+    img.drink-1 {
+        @media (min-width: $breakpoint-small) {
+            opacity: 1;
+            top: 50%;
+        }
+        position: absolute;
+        width: 30%;
+        right: -5%;
+        top: 70%;
+        opacity: .3;
+        z-index: 2;
+    }    
+
+    h2 {
+        color: $color-accent-light;
+        margin: auto;
+    }
+    h3 {
+        color: $color-accent-dark;
+        font-size: 1.5em;
+        font-weight: 400;
+        font-style: italic;
+    }
+    h4 {
+        color: $color-accent-light;
+        font-size: 2em;
+    }
+
+    p.drink-name {
+        font-size: 1.5em;
+        letter-spacing: 2px;
+        color: rgb(223, 223, 223);
+        font-weight: 900;
+        margin-top: 2em;
+        margin-bottom: .2em;
+    }
+
+    p.drink-ingredients {
+        color: rgb(223, 223, 223);
+        font-size: 1.5em;
+        font-family: $font-family-ingredients;
+        font-weight: 100;
+        margin-bottom: auto;
+    }
+}
+
+
+#section-3 {
+    background-color: $color-background-light;
+    margin: 0 2em 2em 2em;
+    border-radius: 20px;
+    z-index: 2;
+
+    .row {
+        margin: 0;
+    }
+
+    .button {
+        transition: 250ms ease;
+    }
+    h2 {
+        color: $color-accent-light;
+        font-size: 3.5em;
+        margin: auto;
+    }
+    h3 {
+        color: $color-accent-dark;
+        font-size: 2em;
+        font-weight: 400;
+        font-style: italic;
+        margin: auto;
+    }
+    p {
+        font-family: $font-family-sans;
+        line-height: 1.3;
+        max-width: 100%;
+        margin-top: 10px;
+    }
+
+    img {
+        box-shadow: 3px 3px 10px rgba(0,0,0,.6);
+        @media (min-width: $breakpoint-small) {
+            transform: scale(2);
+            transform-origin: right center;
+            margin: -4em;
+        }
+       
+    }  
+}
+    
+
+#section-4 {
+    margin: 2em;
+    z-index: 2;
+
+
+    h2 {
+        color: $color-accent-light;
+        font-size: 3.5em;
+        margin: auto;
+    }
+    h3 {
+        color: $color-accent-dark;
+        font-size: 2em;
+        font-weight: 400;
+        font-style: italic;
+        margin: auto;
+    }
+    p {
+        font-family: $font-family-sans;
+        color: rgba(223, 223, 223, 1);
+        line-height: 1.3;
+        margin-top: 10px;
+        max-width: 90%;
+    }
+    .button {
+        transition: 250ms ease;
+    }
+    img {
+
+        @media (min-width: $breakpoint-small) {
+            transform: scale(1.6);
+            margin-left: -4em;
+            margin-top: 12em;
+        }
+        
+    }
+}
+
+#section-5 {
+    background-color: $color-background-light;
+    margin: 2em;
+    border-radius: 20px;
+    
+    .row {
+        @media (min-width: $breakpoint-small) {
+        flex-wrap: nowrap;
+        }
+        flex-wrap: wrap;
+        margin: 0;
+        }
+
+    .staff {
+    text-align: center;
+    width: auto;
+    }
+
+    img.left {
+        transform: translate(14.3em);
+        box-shadow: 3px 3px 10px rgba(0,0,0,.6);
+        @media (min-width: $breakpoint-small) {
+            transform: scale(2);
+            margin: auto;
+        }
+    
+    }
+
+    img.right {
+        transform: translate(-14.3em);
+        box-shadow: 3px 3px 10px rgba(0,0,0,.6);
+        @media (min-width: $breakpoint-small) {
+            transform: scale(2);
+            margin: auto;
+            
+        }
+    }    
+
+    h2 {
+        color: $color-accent-light;
+        margin-bottom: .5em;
+        padding: 0;
+    }
+    h4 {
+        color: $color-accent-light;
+        font-size: 2em;
+    }
+
+    p.name {
+        font-size: 1.5em;
+        letter-spacing: 2px;
+        font-weight: 400;
+        margin: auto;
+    }
+
+    p.job {
+        font-size: 1em;
+        font-family: $font-family-ingredients;
+        font-weight: 300;
+        margin: auto;
+        margin-bottom: 1em;
+    }
+}
+
+#section-6 {
+    margin: 2em;
+    h2 {
+        color: $color-accent-light;
+        font-size: 3em;
+        margin: auto;
+    }
+    h3 {
+        color: $color-accent-dark;
+        font-size: 2em;
+        font-weight: 400;
+        font-style: italic;
+        margin: auto;
+        letter-spacing: 2px;
+    }
+    p {
+        color: $color-accent-light;
+        max-width: 100%;
+        font-size: 1.3em;
+        margin-bottom: .5em;
+        }
+
+    ul {
+        list-style: none;
+        display: flex;
+        padding: 0;
+    }
+
+    i {
+        color: white;
+        font-size: 3em;
+        padding: 0 15px 0 0;
+        margin: auto;
+    }    
+
+    .hours {
+        margin-bottom: 0;
+        color: $color-background-light;
+    }
+    .left {
+        margin-bottom: -6em;
+        @media (min-width: $breakpoint-small) {
+            margin-top: -35em;
+        }
+        text-align: left;
+    }
+    .right {
+        margin-top: 1em;
+        @media (min-width: $breakpoint-small) {
+            margin-bottom: -10em;
+            text-align: left;
+        }
+        text-align: right;
+    }
+    img {
+        @media (min-width: $breakpoint-small) {
+        margin-left: -10em;
+        transform: scale(2);
+        }
+    }
+}
+
+/* HERO SECTION */
+
+
+
+.hero {
+    position: relative;
+    display: grid;
+    place-items: center;
+    padding: 2em;
+    color: white;
+    overflow: hidden;
+
+    .herologo {
+        height: 100vh;
+        margin-top: -3em;
+        @media (min-width: $breakpoint-small) {
+            margin: auto;
+        }
+    }
+
+
+    .bg-image {
+        @media (min-width: $breakpoint-small) {
+            background-position: 25% 85%;
+        }
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        background-image: url(../img/EP_hero_pic.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 28% 85%;
+    }
+}
