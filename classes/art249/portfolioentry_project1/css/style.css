@@ -536,4 +536,5 @@ a.button {
 
 a.button:hover {
   background-color: white;
+  font-size: .95em;
 }
